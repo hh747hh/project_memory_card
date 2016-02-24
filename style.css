@@ -19,21 +19,12 @@ margin : 0px auto;
   line-height: 90px;
 }
 
-
+.back {
+  background-color: black;
+  color: transparent;
+  
+}
 
 body { text-align: center;
        font-family: italic;
-
-.cardImage {
-  width: 100px;
-  height : 100px;
-  background-color: coral;
-  color : white;
-  }
-
-.flippedImage {
-  width : 100px;
-  height: 100px;
-  background-color: black;
-}
 }
