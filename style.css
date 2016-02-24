@@ -1,21 +1,39 @@
-div#memory_board{
+.board{
 background : 	#F0FFFF;
-border : #3B7A3B 5px solid;
+border : lightgray 5px solid;
 width : 500px;
 height : 500px;
-padding : 24px;
 margin : 0px auto;
 }
-div#memory_board > div{
-background: url(sky.jpg) no-repeat ;
-border : #000 3px solid;
-width : 60px;
-height: 60px;
-float : left;
-margin : 10px;
-padding : 20px;
-font-size: 50px;
-cursor:pointer;
-text-align: center;
+
+.card{
+  //background-image: url("memory_card.jpg");
+  height: 100px;
+  width: 100px;
+  background-color: lightblue;
+  margin : 10px;
+  float: left;;
+  border-color: green;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
 }
-h1 {text-align: center;}
+
+
+
+body { text-align: center;
+       font-family: italic;
+
+.cardImage {
+  width: 100px;
+  height : 100px;
+  background-color: coral;
+  color : white;
+  }
+
+.flippedImage {
+  width : 100px;
+  height: 100px;
+  background-color: black;
+}
+}
