@@ -43,3 +43,8 @@ background-color;
   text-shadow:-1px 1px 0 #666;
 
 }
+
+p {
+  font-family: helvetica;
+  font-size: 20px;
+}

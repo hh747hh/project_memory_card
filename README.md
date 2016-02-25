@@ -1,6 +1,6 @@
-<h1>Project #1
+Project #1
 "So, You think you have a good memory?"
-</h1>
+
 
 Technologies used
 I combined html, css and javascript tools to create the app that challenge your memory!
