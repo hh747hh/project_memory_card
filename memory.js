@@ -32,7 +32,7 @@ var divClick = function(){
   }
   if(clicks.length === 2) {
     if(clicks[0] === clicks[1]){
-
+      //alert("GOOD JOB!")
       console.log(clicks);
       clicks = [];
       // var storeClicks = [];
@@ -49,6 +49,11 @@ var divClick = function(){
     }
   }
   console.log(clicks);
+
+  var allBack = document.querySelectorAll(".back");
+  if(allBack.length === 0){
+  alert('WOW!! YOU HAVE A SUPER MEMORY!!!');
+  }
 
 };
 
@@ -80,10 +85,9 @@ function getLetter(a,b){
   console.log(cardText);
   console.log(cardText2);
 }
-getLetter(2,3);
+//getLetter(2,3);
 
 var clicks = [];
-
 
 
 // 1. when one card is flipped, it stays until the other card gets flipped.
