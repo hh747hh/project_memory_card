@@ -32,7 +32,7 @@ var divClick = function(){
   }
   if(clicks.length === 2) {
     if(clicks[0] === clicks[1]){
-      alert('Yay!');
+
       console.log(clicks);
       clicks = [];
       // var storeClicks = [];
@@ -52,14 +52,23 @@ var divClick = function(){
 
 };
 
+
 for (var i = 0; i < 16; i++ ){
   var card = document.createElement("div");
   card.innerHTML = (memory_array[i]);
   card.classList.add("card");
-  card.classList.add("back");
   card.addEventListener('click',divClick);
+  //card.classList.add("back");
   board.appendChild(card);
 }
+
+setTimeout(function(){
+  var cards = document.querySelectorAll('.card');
+  for(var i = 0; i < 16; i++){
+    cards[i].classList.add("back");
+  }
+}, 3000);
+
 
 function getLetter(a,b){
   var allCard = document.querySelectorAll(".card");//creates array of the card
@@ -74,6 +83,7 @@ function getLetter(a,b){
 getLetter(2,3);
 
 var clicks = [];
+
 
 
 // 1. when one card is flipped, it stays until the other card gets flipped.

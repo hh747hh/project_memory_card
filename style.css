@@ -4,6 +4,7 @@ border : lightgray 5px solid;
 width : 500px;
 height : 500px;
 margin : 0px auto;
+
 }
 
 .card{
@@ -16,17 +17,19 @@ margin : 0px auto;
   text-align: center;
   vertical-align: middle;
   line-height: 90px;
+  color: black;
+  
 }
 
 .back {
-  background-color: green;
-  color: transparent;
+  background-color: black;
+
 
 }
 
 body { text-align: center;
        font-family: italic;
-       background-color: #F5F5F5;
+       background-color: #d8e4c4;
 }
 
 h1 {
