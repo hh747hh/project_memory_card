@@ -1,28 +1,33 @@
 .board{
-background : 	#F0FFFF;
+background : 	lightgray;
 border : lightgray 5px solid;
-width : 500px;
-height : 500px;
+width : 400px;
+height : 400px;
 margin : 0px auto;
-
+border-radius: 10px;
 }
 
 .card{
   //background-image: url();
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 90px;
   background-color: white;
-  margin : 10px;
+  margin : 5px;
   float: left;;
   text-align: center;
   vertical-align: middle;
   line-height: 90px;
   color: black;
   font-size: 50px;
+  border-radius: 10px;
 }
 
 .back {
-  background-color: black;
+  background-color: #d8e4c4;
+  color: transparent;
+
+
+  ;
 
 
 }
