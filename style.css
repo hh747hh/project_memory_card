@@ -7,24 +7,31 @@ margin : 0px auto;
 }
 
 .card{
-  //background-image: url("memory_card.jpg");
+  //background-image: url();
   height: 100px;
   width: 100px;
-  background-color: lightblue;
+  background-color: white;
   margin : 10px;
   float: left;;
-  border-color: green;
   text-align: center;
   vertical-align: middle;
   line-height: 90px;
 }
 
 .back {
-  background-color: black;
+  background-color: green;
   color: transparent;
-  
+
 }
 
 body { text-align: center;
        font-family: italic;
+       background-color: #F5F5F5;
+}
+
+h1 {
+background-color;
+  color : gray;
+  text-shadow:-1px 1px 0 #666;
+
 }
