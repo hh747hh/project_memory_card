@@ -90,7 +90,6 @@ function getLetter(a,b){
 var clicks = [];
 
 
-
 // 1. when one card is flipped, it stays until the other card gets flipped.
 // 1.1 you attemp to flip second card. If this card matches withthe firt one, it stays flipped.
 // 1.2 if this card doesn't match with the first one, both back to black.
