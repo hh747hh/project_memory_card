@@ -9,6 +9,9 @@ function shuffle() {
   var memory_length = memory_array.length;
   var j;
   var temp;
+  // I strongly recommend while(){ instead of the { on the next line
+  // Also, convention would be while(memory_length !== 0)
+  // instead of the other way around
   while(0 !== memory_length)
   {j = Math.floor(Math.random() * (memory_length));
     memory_length= memory_length - 1;
@@ -52,7 +55,7 @@ var divClick = function(){
 
   var allBack = document.querySelectorAll(".back");
   if(allBack.length === 0){
-  alert('WOW!! YOU HAVE A SUPER MEMORY!!!');
+    alert('WOW!! YOU HAVE A SUPER MEMORY!!!');
   }
 
 };
@@ -76,6 +79,7 @@ setTimeout(function(){
 
 
 function getLetter(a,b){
+  // Doesn't look like you use this function anywhere
   var allCard = document.querySelectorAll(".card");//creates array of the card
   var oneCard = allCard[a];//gets one card from array
   var cardText = oneCard.textContent;//gets the text from the card
@@ -88,7 +92,7 @@ function getLetter(a,b){
 //getLetter(2,3);
 
 var clicks = [];
-
+// Usually you want all your `var` at the top of the script
 
 // 1. when one card is flipped, it stays until the other card gets flipped.
 // 1.1 you attemp to flip second card. If this card matches withthe firt one, it stays flipped.
