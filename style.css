@@ -9,11 +9,14 @@ border-radius: 10px;
 
 .card{
   //background-image: url();
+  /* You can't actually comment with // in CSS.
+  You need to use this format with the slash and start. */
   height: 90px;
   width: 90px;
   background-color: white;
   margin : 5px;
   float: left;;
+  /* Extra semicolon */
   text-align: center;
   vertical-align: middle;
   line-height: 90px;
@@ -25,11 +28,6 @@ border-radius: 10px;
 .back {
   background-color: #d8e4c4;
   color: transparent;
-
-
-  ;
-
-
 }
 
 body { text-align: center;
@@ -39,6 +37,7 @@ body { text-align: center;
 
 h1 {
 background-color;
+/* Need a background color here. */
   color : gray;
   text-shadow:-1px 1px 0 #666;
 
